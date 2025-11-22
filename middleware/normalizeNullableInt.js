@@ -1,4 +1,4 @@
-// toma id_autoer / id_cliente etc y lo transforma automáticamente en null o en un int válido
+// toma id_autor / id_cliente etc y lo transforma automáticamente en null o en un int válido
 
 export function normalizeNullableInt(fieldName) {
     return (req, res, next) => {
